@@ -1,0 +1,134 @@
+doctype html
+html(lang="ru-RU")
+    head 
+        meta(charset="utf-8")
+        meta(name='viewport' content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=0")
+        meta(http-equiv='X-UA-Compatible' content='IE=edge')
+        link(rel="stylesheet", htef="assets/css/bootstrap.min.css")
+        link(href="assets/css/bootstrap-responsive.css" rel="stylesheet")
+        link(rel="stylesheet", href="assets/css/styles.css")
+        link(href="http://allfont.ru/allfont.css?fonts=open-sans-italic", rel="stylesheet")
+    body
+        
+            .header
+                .wrapper
+                    .header__nav.nav
+                        a(href="#").nav__link.nav__link--active Главная
+                        a(href="#").nav__link О нас 
+                        a(href="#").nav__link Щенки на продажу
+                        a(href="#").nav__link Услуги
+                        a(href="#").nav__link Полезная информация
+                        a(href="#").nav__link Контакты
+                .header__info.info
+                    .wrapper
+                        .info__container
+                            .info__logo
+                                img(src="assets/img/headlogo.png")
+                            .info__name Название питомника
+                            .info__phone +7 (343) 222-17-20  
+                            .info__button.button Заказать звонок
+            
+            section.carousel
+                .wrapper
+                    .carousel__inner
+                        .slide
+                            img(src="assets/img/slide.jpg")
+                        .slide
+                            img(src="assets/img/slide.jpg")
+                        .slide
+                            img(src="assets/img/slide.jpg")
+                    .carousel__control.carousel__control--left(href="#")
+                    .carousel__control.carousel__control--right(href="#")
+            section.onsale
+                .wrapper
+                    .onsale__container.container-fluid
+                        h3 щенки на продажу
+                        .onsale__item
+                            .onsale__img
+                                img(src="assets/img/photo-3.jpg")
+                            .onsale__block
+                                .onsale__name Щенок Терьера (Имя/Кличка) 
+                                .onsale__description Йоркширский терьер – порода собак, относящаяся к декоративной. Отличается коммуникабельностью, дружелюбием и отличным нравом.
+                                .onsale__birthday Дата рождения: 26.12.15
+                                .onsale__sex Пол: М
+                                .onsale__parents Родители: Чемпион и Чемпионка
+                        .onsale__item
+                            .onsale__img
+                                img(src="assets/img/photo-2.jpg")
+                            .onsale__block
+                                .onsale__name Щенок Хаски (Имя/Кличка) 
+                                .onsale__description Сибирский хаски порода собак с очень независимым, самостоятельным характером,взыскующим сильного лидера с собой
+                                .onsale__birthday Дата рождения: 26.12.15
+                                .onsale__sex Пол: М
+                                .onsale__parents Родители: Чемпион и Чемпионка
+                        .onsale__item
+                            .onsale__img
+                                img(src="assets/img/photo-1.jpg")
+                            .onsale__block
+                                .onsale__name Щенок Сиба (Имя/Кличка) 
+                                .onsale__description Уникальная порода симпатичных собак, выносливых и игривых. Собака-охотник,собака-компаньон.Тело сибуина покрыто густой шерстью
+                                .onsale__birthday Дата рождения: 26.12.15
+                                .onsale__sex Пол: М
+                                .onsale__parents Родители: Чемпион и Чемпионка
+                        .button.button--options Все предложения
+            section.services
+                .wrapper
+                    h3 услуги питомника
+                    .services__container.container-fluid
+                       
+                        a.services__item Продажа 
+                        a.services__item Услуга
+                        a.services__item Гостиница
+                        a.services__item Услуга
+                        a.services__item Грумер
+                        a.services__item Услуга
+                        .button.button--options Все услуги
+            section.gallery
+                .wrapper
+                    h3 Галерея
+                    .gallery__container.container-fluid
+                        .gallery__item
+                            .gallery__img
+                                img(src="assets/img/gallery-1.jpg")
+                            .gallery__name Название фото 
+                            .gallery__text Небольшое описание фотографии всего в несколько строк.
+                         .gallery__item
+                            .gallery__img
+                                img(src="assets/img/gallery-2.jpg")
+                            .gallery__name Название фото 
+                            .gallery__text Небольшое описание фотографии всего в несколько строк.
+                         .gallery__item
+                            .gallery__img
+                                img(src="assets/img/gallery-3.jpg")
+                            .gallery__name Название фото 
+                            .gallery__text Небольшое описание фотографии всего в несколько строк. 
+                         .gallery__item
+                            .gallery__img
+                                img(src="assets/img/gallery-4.jpg")
+                            .gallery__name Название фото  
+                            .gallery__text Небольшое описание фотографии всего в несколько строк. 
+                    .button.button--options Все фотографии
+            section.about
+                .wrapper
+                    .about__container.container-fluid
+                        h3 О питомнике
+                        .about__description Что можно сказать по поводу всего проекта? Я считаю, что направление крайне правильное. Да,вполне возможно, что некоторые 
+                            p части и принципы будет сложно применить. Вполне возможно, что со временем многое что поменяется,но лично мне это очень нравится...
+                        .about__description--hidden текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст 
+                        a(href="javascript://").button.button--more Подробнее
+            section.map
+            .footer
+                .wrapper
+                    .footer__container.container-fluid
+                        .footer__logo © АйтексStart 2016
+                        .footer__elems
+                            .footer__elem1
+                                img(src="assets/img/elem1.png")
+                            .footer__elem2
+                                img(src="assets/img/elem2.png")
+                        .footer__itex
+                            a(href="#",style="color:#ccb298") itexstart.ru
+            script(src="assets/js/libs/jquery-3.0.0.min.js")          
+            //script(src="assets/js/libs/bootstrap.min.js")
+            script(src="assets/js/libs/jquery.carouFredSel-6.2.1-packed.js")
+            script(src="assets/js/libs/scripts.js")
